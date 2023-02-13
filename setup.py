@@ -14,6 +14,7 @@ setup(
     author_email="renownkim@gmail.com",
     description="PyPI test project",
     long_description=README,
+    long_description_content_type="text/markdown",
     url="https://github.com/kimfame/kimfame",
     packages=find_packages(),
     classifiers=[
