@@ -9,18 +9,19 @@ VERSION = (here / "VERSION").read_text(encoding="utf-8").strip()
 
 setup(
     name="kimfame",
-    version="0.0.1",
+    version=VERSION,
     author="kimfame",
     author_email="renownkim@gmail.com",
     description="PyPI test project",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/kimfame/kimfame",
-    packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
     python_requires='>=3.10',
 )
