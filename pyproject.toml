@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "kimfame"
+version = "0.0.14"
+description = "PyPI test project"
+license = "MIT"
+authors = ["kimfame <renownkim@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/kimfame/kimfame"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+faker = "^17.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
