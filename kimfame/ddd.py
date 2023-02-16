@@ -1,0 +1,2 @@
+def ddd():
+    print("ddd")
