@@ -1,5 +1,6 @@
 from faker import Faker
 
+
 def aaa():
     print("aaa")
 
