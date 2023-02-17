@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kimfame"
-version = "0.0.20"
+version = "0.0.21"
 description = "PyPI test project"
 license = "MIT"
 authors = ["kimfame <renownkim@gmail.com>"]
